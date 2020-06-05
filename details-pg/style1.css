@@ -1,0 +1,48 @@
+.carousel,.slide{
+    width: 400px;
+    margin-left: 3%;
+}
+
+.description{
+    margin-left: 3%;
+    width: 50%;
+    color: gray;
+}
+.pname{
+    margin-left: 3%;
+    width: 80%;
+    color: #D81B60;
+}
+
+    
+.order-form{
+    width: 640px; 
+    height: 700px
+}
+#logo{
+    width: 70px;
+}
+
+@media screen and (max-width: 600px){
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+    .map{
+        width: 300px;
+        margin-left: 3%;
+        
+    }
+    .description{
+        width: 300px;
+        
+    }
+    .order-form{
+        width: 330px;
+    }
+    .carousel,.slide{
+        width :270px;
+    }
+    #logo{
+        width: 40px;
+    }
+}

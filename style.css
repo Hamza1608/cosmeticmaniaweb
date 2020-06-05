@@ -1,0 +1,174 @@
+.navbar{
+    background-color: #D81B60 !important;
+    
+}
+.nav-link{
+    color: white !important;
+    font-weight: bold !important;
+}
+.nav-item :hover{
+    background-color: white !important;
+    color: #D81B60 !important;
+    border-radius: 2px !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+
+/* .fa-phone,.fa-thumbs-o-up,.fa-truck{
+    font-size: 50px !important;
+    margin-right: 10px;
+    color: #D81B60 ;
+} */
+
+
+
+.mainCard{
+   margin-top: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+
+}
+
+
+.card1,.card2,.card3{
+    display: flex;
+    width: 400px;
+    /* background-color: white; */
+    /* border: 2px solid #D81B60; */
+    /* height: 180px; */
+    /* border-radius: 20px; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    
+    
+    
+}
+
+
+
+.products{
+    margin-top: 40px;
+}
+.card{
+    width: auto;
+    margin-top: 10px;
+    border: 3px solid #D81B60;
+}
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color: #D81B60;
+    font-weight: 500;
+    border: #D81B60;
+}
+.btn-primary:hover{
+    background-color: white;
+    color: #D81B60;
+    
+    
+}
+
+
+.heading{
+    color: #D81B60;
+    text-align: center;
+}
+.footer{
+    background-color: #D81B60;
+    display: flex;
+    margin-top: 20px;
+    padding: 10px;
+    justify-content: space-around   ;
+}
+.footer .f2{
+    color: white;
+   
+}
+
+
+
+
+.sociallinks{
+    margin-left: 10px;
+}
+
+.top .bt{
+    position: fixed;
+    bottom: 150px;
+    right: 10px;
+    padding: 10px;
+    width: auto;
+   
+}
+
+
+.page-link{
+    color: #D81B60;
+}
+.page-link:hover{
+    color: white;
+    background-color: #D81B60;
+}
+.heading1{
+    color: #D81B60;
+    margin-left: 10px;
+    
+}
+.para{
+    color: gray;
+    text-align: justify;
+    padding: 10px;
+    width: 80%;
+    margin-left: 10px;
+    word-spacing: 2px;
+}
+.whatsapp-bt{
+    position: fixed;
+    bottom: 50px;
+    left: 30px;
+}
+#logo{
+    width: 70px;
+}
+
+@media screen and (max-width: 600px){
+    .card1,.card2,.card3{
+        width: 100%;
+        height: 220px;
+    }
+    .map{
+        width: 300px;
+        margin-left: 3%;
+        
+    }
+    .description{
+        width: 300px;
+        
+    }
+    .whatsapp-bt{
+        position: fixed;
+        bottom: 100px;
+        
+    }
+    .whatsapp-bt>img{
+        width: 80px;
+        position: fixed;
+        bottom: 100px;
+        right: 10px;
+    }
+    #logo{
+        width: 40px;
+    }
+    #cardMid{
+        width: 300px;
+    }
+    
+}
+
+
