@@ -9,13 +9,13 @@
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="app.js" > </script>
+    <!-- <script src="app.js" > </script> -->
 </head>
 
 <body>
     <div>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="./index.html"> <img id="logo" src="./images/cm-logo.png" alt="logo" ></a>
+            <a class="navbar-brand" href="./index.html"> <img id="logo" src="./images/cm-logo.png" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
                 aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -68,6 +68,7 @@
                     <img src="images/slide3.webp" class="d-block w-100" alt="img error">
                 </div>
             </div>
+
             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
@@ -77,23 +78,26 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
+
+
+
         <div class="mainCard">
             <div class="card1">
                 <div>
-                   <img id="cardMid"src="./images/support.png" alt="img">
+                    <img id="cardMid" src="./images/support.png" alt="img">
                 </div>
             </div>
 
             <div class="card2">
 
                 <div>
-                    <img id="cardMid"src="./images/SHIP.png" alt="img">  
+                    <img id="cardMid" src="./images/SHIP.png" alt="img">
                 </div>
             </div>
             <div class="card3">
 
                 <div>
-                    <img id="cardMid"src="./images/QUALITY.png" alt="img">  
+                    <img id="cardMid" src="./images/QUALITY.png" alt="img">
                 </div>
             </div>
         </div>
@@ -214,12 +218,12 @@
 
 
     </div>
-     <div>
-        <a class="whatsapp-bt " target="_blank" href=" https://wa.me/03001234567"><img width="80px"
-            src="./images/79dc31280371b8ffbe56ec656418e122.png" alt="image error">
-    </a>
-     </div>
-    
+    <div>
+        <a class="whatsapp-bt " target="_blank" href='https://wa.me/923148100230?text=https://cm-web-app.web.app/index.html'><img width="80px"
+                src="./images/79dc31280371b8ffbe56ec656418e122.png" alt="image error">
+        </a>
+    </div>
+
     <br>
     <br>
     <div class="footer">
@@ -264,27 +268,32 @@
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
         crossorigin="anonymous"></script>
 
-   <!-- Load Facebook SDK for JavaScript -->
-   <div id="fb-root"></div>
-   <script>
-       window.fbAsyncInit = function () {
-           FB.init({
-               xfbml: true,
-               version: 'v7.0'
-           });
-       };
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous"
+        src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v7.0&appId=426688924574325&autoLogAppEvents=1"></script>
 
-       (function (d, s, id) {
-           var js, fjs = d.getElementsByTagName(s)[0];
-           if (d.getElementById(id)) return;
-           js = d.createElement(s); js.id = id;
-           js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-           fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));</script>
+    <!-- Load Facebook SDK for JavaScript -->
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v7.0'
+            });
+        };
 
-   <!-- Your Chat Plugin code -->
-   <div class="fb-customerchat col-sm-6 col-md-6 col-lg-3" attribution=setup_tool page_id="112430993816301" theme_color="#D81B60">
-   </div>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <!-- Your Chat Plugin code -->
+    <div class="fb-customerchat col-sm-6 col-md-6 col-lg-3" attribution=setup_tool page_id="112430993816301"
+        theme_color="#D81B60">
+    </div>
 </body>
 
 </html>

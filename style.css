@@ -10,7 +10,21 @@
     background-color: white !important;
     color: #D81B60 !important;
     border-radius: 2px !important;
+    
 }
+.dropdown-menu:hover{
+    background-color: #D81B60 !important;
+    
+
+}
+.dropdown-menu{
+    background-color: #D81B60;
+}
+
+.dropdown-menu>a {
+    color: white !important;
+}
+
 .navbar-brand{
     color: white !important;
 }
@@ -70,6 +84,7 @@
 .btn-primary:hover{
     background-color: white;
     color: #D81B60;
+    border: 1px solid #D81B60;
     
     
 }
@@ -168,7 +183,10 @@
     #cardMid{
         width: 300px;
     }
-    
+    .dropdown-menu{
+        border: 1px solid white;
+    }
 }
+
 
 

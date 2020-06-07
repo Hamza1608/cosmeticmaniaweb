@@ -22,6 +22,25 @@
 #logo{
     width: 70px;
 }
+.fb-share-button{
+    margin-left: 40px;
+}
+
+
+.whatsapp{
+    display: ;
+    color: #1DC143;
+  }
+  
+  .whatsapp:hover, .whatsapp:focus{
+    background: #1DC143;
+    color: #fff;
+    text-shadow: 0 0 1px rgba(0,0,0,0.2);
+  }
+  
+  .whatsapp.activeWhatsapp{
+    display: inline-block;
+  }
 
 @media screen and (max-width: 600px){
     .card1,.card2,.card3{
